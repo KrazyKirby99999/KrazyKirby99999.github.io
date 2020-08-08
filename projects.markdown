@@ -11,6 +11,6 @@ Krazykirby99999 has been experimenting with code since 2016. Below you may find 
 
 
 
-[flashmath1-link]:flashmath1.github.io
-[mccmodloader-link]:www.nexusmods.com/halothemasterchiefcollection/mods/194
+[flashmath1-link]:https://flashmath1.github.io
+[mccmodloader-link]:https://www.nexusmods.com/halothemasterchiefcollection/mods/194
 
