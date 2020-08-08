@@ -12,12 +12,12 @@ Contact KrazyKirby99999 using the form below:
   method="POST"
 >
   <label>
-    Your email:
-    <input type="text" name="_replyto">
+    Your email:<br>
+    <input type="text" name="_replyto"><br><br>
   </label>
   <label>
-    Your message:
-    <textarea name="message"></textarea>
+    Your message:<br>
+    <textarea name="message"></textarea><br><br>
   </label>
 
   <button type="submit">Send</button>
