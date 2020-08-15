@@ -1,5 +1,17 @@
+<script language="JavaScript" type="text/javascript">
+	<!--
+    function changeFrame(newPage) {
+        document.getElementById("myframe").src = newPage;
+    }
+    //-->
+</script>
+
 <body>
     <form name="valform" action="" method="POST">
         Enter URL: <input type="text" id="cctextboxid" name="cctextbox"><br />
-        <input type="button" name="submit" value="Go To URL" onclick="window.location.assign(document.getElementById('cctextboxid').value)" />
+        <input type="button" name="submit" value="Go To URL" onclick="changeFrame(document.getElementById('cctextboxid').value)" />
+
+        <iframe src="example.com" id="myframe" height=90% width=100%>
+            Error
+        </iframe>
 </body>
