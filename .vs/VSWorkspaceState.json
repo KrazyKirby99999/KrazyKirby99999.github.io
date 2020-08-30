@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\projects",
+    "\\projects\\urlpages"
   ],
-  "SelectedNode": "\\projects.markdown",
+  "SelectedNode": "\\projects\\urlpages\\b64.js",
   "PreviewInSolutionExplorer": false
 }
