@@ -24,24 +24,24 @@ var apiVersions = {};
 
 apiVersions["0.2.0"] = {
 
-    VERSION: "0.2.0",
+  VERSION: "0.2.0",
 
-    /* Return a link to view the page */
-    getViewLink: function (pageData) {
-        var urlData = {
-            version: this.VERSION,
-            compressed: false,
-            body: pageData,
-        };
+  /* Return a link to view the page */
+  getViewLink: function(pageData) {
+    var urlData = {
+      version: this.VERSION,
+      compressed: false,
+      body: pageData,
+    };
 
-        const hashObject = b64.encode(JSON.stringify(urlData));
-        return `http://jstrieb.github.io/urlpages/#${hashObject}`;
-    },
+    const hashObject = b64.encode(JSON.stringify(urlData));
+    return `http://jstrieb.github.io/urlpages/#${hashObject}`;
+  },
 
-    /* Return the page data from the object */
-    decode: function (urlData) {
-        return urlData.body;
-    },
+  /* Return the page data from the object */
+  decode: function(urlData) {
+    return urlData.body;
+  },
 
 }
 
@@ -53,11 +53,11 @@ apiVersions["0.2.0"] = {
 
 apiVersions["0.0.1"] = {
 
-    VERSION: "0.0.1",
+  VERSION: "0.0.1",
 
-    /* Return a link to view the page */
-    getViewLink: function (pageData) {
-        return `http://jstrieb.github.io/urlpages/#${b64.encode(pageData)}`;
-    },
+  /* Return a link to view the page */
+  getViewLink: function(pageData) {
+    return `http://jstrieb.github.io/urlpages/#${b64.encode(pageData)}`;
+  },
 
 }

@@ -1,3 +1,7 @@
+<!-- index.html: Referred to as the "main page" in documentation -->
+
+<meta name="description" content="Create and view web pages stored entirely in the URL">
+<link rel="shortcut icon" href="favicon.ico">
 
 <noscript>JavaScript is required to convert the URL into a usable web page.</noscript>
 
@@ -17,6 +21,7 @@ if (window.location.hash) {
     document.write(decodeURIComponent(data));
   }
 } else {
-  console.log("Error")
+  // Otherwise redirect to the editor
+  window.location.replace("./editor");
 }
 </script>
