@@ -2,11 +2,7 @@
     <head>
         <title>Urlpages Redirector</title>
         <script>
-            var hashParams = window.location.hash.substr(1).split('&');
-            for (var i = 0; i < hashParams.length; i++) {
-                var p = hashParams[i].split('=');
-                document.getElementById(p[0]).value = decodeURIComponent(p[1]);;
-            }
+            document.getElementById("code").value = window.location.href.match(/\?code=(.*)/);
 
             function urlpageRedirect() {
                 var host = document.getElementById("host").value;
