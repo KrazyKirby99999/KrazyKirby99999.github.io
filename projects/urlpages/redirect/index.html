@@ -2,25 +2,29 @@
     <head>
         <title>Urlpages Redirector</title>
         <script>
-            document.getElementById("code").value = window.location.href.match(/\?code=(.*)/)[1];
+            var getUrlParameter = function getUrlParameter(sParam) {
+                var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                    sURLVariables = sPageURL.split('&'),
+                    sParameterName,
+                    i;
+                for (i = 0; i < sURLVariables.length; i++) {
+                    sParameterName = sURLVariables[i].split('=');
+                    if (sParameterName[0] === sParam) {
+                        return sParameterName[1] === undefined ? true : sParameterName[1];
+                    }
+                }
+            };
 
-            function urlpageRedirect() {
-                var host = document.getElementById("host").value;
-                var code = document.getElementById("code").value;
-                //redirect to <host>/code
-                window.location.href = host+code;
+            var code = getUrlParameter('code');
+
+            let hosts = ["https://krazykirby99999.github.io/projects/urlpages/#"];
+
+            var host = hosts[Math.floor(Math.random() * myArray.length)];
+
+            window.location.href = host+code;
             }
         </script>
     </head>
     <body>
-        <center>
-            <form>
-                <p>Redirect to Urlpage location:</p>
-                <p>Enter Host:</p><input type="text" name="hostField" id="host" autocomplete="off" />
-                <p>Enter Code:</p><input type="text" name="codeField" id="code" value="" autocomplete="off" />
-                <br><input type="button" value="submit" id="submit" onclick="urlpageRedirect()" />
-            </form>
-            <iframe src="placeholder.html" height=80% width=80%></iframe>
-        </center>
     </body>
 </html>
