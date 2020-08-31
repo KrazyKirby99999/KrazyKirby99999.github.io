@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Urlpages Redirector</title>
+        <script>
+            function urlpageRedirect() {
+                var host = document.getElementById("host").value;
+                var code = document.getElementById("code").value;
+                //redirect to <host>/code
+                window.location.href = host+code;
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+            <form>
+                Redirect to Urlpage location:<br>
+                <input type="text" name="hostField" id="host" /><br>
+                <input type="text" name="codeField" id="code" /><br>
+                <input type="button" value="submit" id="submit" onclick="urlpageRedirect()" />
+            </form>
+            <iframe src="placeholder.html" height=80% width=80%></iframe>
+        </center>
+    </body>
+</html>
