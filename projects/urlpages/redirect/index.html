@@ -2,6 +2,12 @@
     <head>
         <title>Urlpages Redirector</title>
         <script>
+            var hashParams = window.location.hash.substr(1).split('&');
+            for (var i = 0; i < hashParams.length; i++) {
+                var p = hashParams[i].split('=');
+                document.getElementById(p[0]).value = decodeURIComponent(p[1]);;
+            }
+
             function urlpageRedirect() {
                 var host = document.getElementById("host").value;
                 var code = document.getElementById("code").value;
@@ -13,10 +19,10 @@
     <body>
         <center>
             <form>
-                Redirect to Urlpage location:<br>
-                <input type="text" name="hostField" id="host" /><br>
-                <input type="text" name="codeField" id="code" /><br>
-                <input type="button" value="submit" id="submit" onclick="urlpageRedirect()" />
+                <p>Redirect to Urlpage location:</p>
+                <p>Enter Host:</p><br><input type="text" name="hostField" id="host" />
+                <p>Enter Code:</p><br><input type="text" name="codeField" id="code" />
+                <br><input type="button" value="submit" id="submit" onclick="urlpageRedirect()" />
             </form>
             <iframe src="placeholder.html" height=80% width=80%></iframe>
         </center>
