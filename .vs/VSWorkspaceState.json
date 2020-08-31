@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\projects\\urlpages"
+    "\\projects",
+    "\\projects\\urlpages",
+    "\\projects\\urlpages\\redirect"
   ],
-  "SelectedNode": "\\projects.markdown",
+  "SelectedNode": "\\projects\\urlpages\\redirect",
   "PreviewInSolutionExplorer": false
 }
