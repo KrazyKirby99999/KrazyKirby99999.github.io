@@ -2,7 +2,7 @@
     <head>
         <title>Urlpages Redirector</title>
         <script>
-            document.getElementById("code").value = window.location.href.match(/\?code=(.*)/);
+            document.getElementById("code").value = window.location.href.match(/\?code=(.*)/)[1];
 
             function urlpageRedirect() {
                 var host = document.getElementById("host").value;
