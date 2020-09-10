@@ -13,5 +13,5 @@ Krazykirby99999 has been experimenting with code since 2016. Below you may find 
 
 [flashmath1-link]:https://flashmath1.github.io
 [mccmodloader-link]:https://www.nexusmods.com/halothemasterchiefcollection/mods/194
-[ascii-rpg-link]https://github.com/KrazyKirby99999/ascii-rpg
+[ascii-rpg-link]:https://github.com/KrazyKirby99999/ascii-rpg
 
