@@ -8,7 +8,7 @@ Krazykirby99999 has been experimenting with code since 2016. Below you may find 
 
 * [Flashmath1][flashmath1-link], a flash/html5 game website. Used by over 8 million since its start in the February of 2018.
 * [MCC Modloader][mccmodloader-link], a modloader for the PC release of Halo MCC. Abandoned shortly after development began due to superior alternatives becoming available.
-*[ASCII-RPG][ascii-rpg-link], a template for ascii games in python. A work in progress.
+* [ASCII-RPG][ascii-rpg-link], a template for ascii games in python. A work in progress.
 
 
 [flashmath1-link]:https://flashmath1.github.io
