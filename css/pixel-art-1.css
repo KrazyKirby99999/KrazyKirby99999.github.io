@@ -10,152 +10,59 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:200,300,500,700);
 
 
-html {
-  box-sizing: border-box;
+html, .grid {
+    box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+*, *:before, *:after, .grid {
+    box-sizing: inherit;
 }
 
-article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary, .grid {
     display: block;
 }
-body {
-    background:#f2f2f2 none repeat scroll 0 0;
+body, .grid {
+    background: #f2f2f2 none repeat scroll 0 0;
     color: #000;
     font-family: "Raleway",sans-serif;
     font-size: 100%;
     line-height: 24px;
     margin: 0;
-	padding:0;
+    padding: 0;
 }
-a{
-	font-family: "Raleway",sans-serif;
-	text-decoration: none;
-	outline: none;
+a, .grid {
+    font-family: "Raleway",sans-serif;
+    text-decoration: none;
+    outline: none;
 }
-a:hover, a:focus {
-	color: #373e18;
-}
-section {
+    a:hover, a:focus, .grid {
+        color: #373e18;
+    }
+section, .grid {
     float: left;
     width: 100%;
-	 margin-top:2em;
-	 margin-bottom:2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
-h2 {
+h2, .grid {
     color: #1a0e0e;
     font-size: 26px;
     font-weight: 700;
     margin: 0;
     line-height: normal;
-	text-transform:uppercase;
-}
-h2 span {
-    display: block;
-    padding: 0;
-    font-size: 18px;
-    opacity: 0.7;
-    margin-top: 5px;
-	text-transform:uppercase;
-}
-
-#float-right{
-	float:right;	
-}
-
-/* ******************************************************
-	Header
-*********************************************************/
-
-.ScriptTop {
-    background: #fff none repeat scroll 0 0;
-    float: left;
-    font-size: 0.69em;
-    font-weight: 600;
-    line-height: 2.2;
-    padding: 12px 0;
     text-transform: uppercase;
-    width: 100%;
 }
+    h2 span, .grid {
+        display: block;
+        padding: 0;
+        font-size: 18px;
+        opacity: 0.7;
+        margin-top: 5px;
+        text-transform: uppercase;
+    }
 
-/* To Navigation Style 1*/
-.ScriptTop ul {
-    margin: 24px 0;
-    padding: 0;
-    text-align: left;
+#float-right, .grid {
+    float: right;
 }
-.ScriptTop li{
-	list-style:none;	
-	display:inline-block;
-}
-.ScriptTop li a {
-    background: #6a4aed none repeat scroll 0 0;
-    color: #fff;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 5px 18px;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-.ScriptTop li a:hover{
-	background:#000;
-	color:#fff;
-}
-
-
-/* Header*/
-.ScriptHeader {
-    float: left;
-    width: 100%;
-    padding-top: 2em;
-}
-.rt-heading{
-	border-bottom: solid 1px #87d1e1;
-	padding-bottom: 10px;
-}
-.ScriptHeader h1{
-    color: #151514;
-    font-size: 28px;
-    font-weight: 700;
-    margin: 0;
-    line-height: normal;
-	text-transform:uppercase;
-}
-.ScriptHeader h2 {
-    color: #81807f;
-    font-size: 18px;
-    font-weight: 400;
-    margin: 5px 0 0;
-    line-height: normal;
-	text-transform:uppercase;
-}
-
-.ScriptHeader h1 span {
-    display: block;
-    padding: 0;
-    font-size: 22px;
-    opacity: 0.7;
-    margin-top: 5px;
-	text-transform:uppercase;
-}
-.ScriptHeader span {
-    display: block;
-    padding: 0;
-    font-size: 22px;
-    opacity: 0.7;
-    margin-top: 5px;
-}
-
-
-
-
-/* ******************************************************
-	Live Demo
-*********************************************************/
-
-
 
 
 
