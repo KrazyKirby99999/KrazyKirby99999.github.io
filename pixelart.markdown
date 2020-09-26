@@ -11,21 +11,14 @@ Krazykirby99999 has been experimenting with pixel art since the September of 202
 <section>
     <div class='rt-container'>
           <div class='col-rt-12'>
-              <div class='grid'>
+              <div class='grid'><center>
 				<div class='grid-item'>
 					<figure>
 						<img src='../img/among-us-red-(120x120).png' alt='Among Us Red Crewmate'>
 						<figcaption>Among Us Red Crewmate</figcaption>
 					</figure>
 				</div>
-
-				<div class='grid-item'>
-					<figure>
-						<img src='../img/among-us-red-(120x120).png' alt='Among Us Red Crewmate'>
-						<figcaption>Among Us Red Crewmate 2</figcaption>
-					</figure>
-				</div>
-              </div>
+              </div></center>
           </div>
     </div>
 </section>
