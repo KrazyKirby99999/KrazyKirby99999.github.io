@@ -4,7 +4,7 @@ title: Pixel Art
 permalink: /pixelart/
 ---
 <link rel="stylesheet" type="text/css" href="../css/pixel-art-1.css" />
-<link rel="stylesheet" type="text/css" href="../css/pixel-art-2.css" />
+
 
 Krazykirby99999 has been experimenting with pixel art since the September of 2020. Below are samples of his work:
 
