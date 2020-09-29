@@ -19,6 +19,24 @@ Krazykirby99999 has been experimenting with pixel art since the September of 202
 							<figcaption>Among Us Red Crewmate</figcaption>
 						</figure>
 					</div>
+					<div class='grid-item'>
+						<figure>
+							<img src='../img/slime-green-slime-green-idle-1.png' alt='Green Slime Idle 1'>
+							<figcaption>Green Slime Idle 1</figcaption>
+						</figure>
+						<figure>
+							<img src='../img/slime-green-slime-green-idle-2.png' alt='Green Slime Idle 2'>
+							<figcaption>Green Slime Idle 2</figcaption>
+						</figure>
+						<figure>
+							<img src='../img/slime-green-slime-green-idle-3.png' alt='Green Slime Idle 3'>
+							<figcaption>Green Slime Idle 3</figcaption>
+						</figure>
+						<figure>
+							<img src='../img/slime-green-slime-green-idle-4.png' alt='Green Slime Idle 4'>
+							<figcaption>Green Slime Idle 4</figcaption>
+						</figure>
+					</div>
 				</center>
               </div>
           </div>
