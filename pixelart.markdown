@@ -21,19 +21,19 @@ Krazykirby99999 has been experimenting with pixel art since the September of 202
 					</div>
 					<div class='grid-item'>
 						<figure>
-							<img src='../img/slime-green/slime-green-idle-1.png' alt='Green Slime Idle 1'>
+							<img src='../img/slime-green/idle/slime-green-idle-1.png' alt='Green Slime Idle 1' height=200% width=200%>
 							<figcaption>Green Slime Idle 1</figcaption>
 						</figure>
 						<figure>
-							<img src='../img/slime-green/slime-green-idle-2.png' alt='Green Slime Idle 2'>
+							<img src='../img/slime-green/idle/slime-green-idle-2.png' alt='Green Slime Idle 2' height=200% width=200%>
 							<figcaption>Green Slime Idle 2</figcaption>
 						</figure>
 						<figure>
-							<img src='../img/slime-green/slime-green-idle-3.png' alt='Green Slime Idle 3'>
+							<img src='../img/slime-green/idle/slime-green-idle-3.png' alt='Green Slime Idle 3' height=200% width=200%>
 							<figcaption>Green Slime Idle 3</figcaption>
 						</figure>
 						<figure>
-							<img src='../img/slime-green/slime-green-idle-4.png' alt='Green Slime Idle 4'>
+							<img src='../img/slime-green/idle/slime-green-idle-4.png' alt='Green Slime Idle 4' height=200% width=200%>
 							<figcaption>Green Slime Idle 4</figcaption>
 						</figure>
 					</div>
