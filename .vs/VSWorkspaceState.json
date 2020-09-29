@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\img",
+    "\\img\\slime-green",
+    "\\img\\slime-green\\idle"
   ],
-  "SelectedNode": "\\projects.markdown",
+  "SelectedNode": "\\pixelart.markdown",
   "PreviewInSolutionExplorer": false
 }
